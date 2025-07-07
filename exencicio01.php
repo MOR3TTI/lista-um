@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>O número <strong>$numero</strong> é <strong>ÍMPAR</strong>.</p>";
     };
 };
+
 ?>
 
 </body>
