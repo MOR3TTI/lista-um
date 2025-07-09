@@ -2,6 +2,8 @@
 <form method="POST">
     <label>Digite um número:</label>
     <input type="number" name="numero" required>
+    <br>
+    <br>
     <button type="submit">Verificar</button>
 </form>
 

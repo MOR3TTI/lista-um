@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Verificar Par ou Ímpar</title>
+    <title>Verificar Positivo ou Negativo</title>
 </head>
 <body>
 
@@ -17,10 +17,10 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $numero = $_POST["numero"];
 
-    if ($numero % 2 == 0) {
-        echo "<p>O número <strong>$numero</strong> é <strong>PAR</strong>.</p>";
+    if ($numero > 0) {
+        echo "<p>O número <strong>$numero</strong> é <strong>Positivo</strong>.</p>";
     } else {
-        echo "<p>O número <strong>$numero</strong> é <strong>ÍMPAR</strong>.</p>";
+        echo "<p>O número <strong>$numero</strong> é <strong>Negativo</strong>.</p>";
     };
 };
 
